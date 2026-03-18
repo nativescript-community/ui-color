@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/ui-color",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple color picker for Nativescript iOS/Android",
     "main": "index",
     "sideEffects": false,
@@ -43,5 +43,6 @@
     ],
     "bugs": {
         "url": "https://github.com/nativescript-community/ui-color/issues"
-    }
+    },
+    "gitHead": "57e36dca120d52925b572cb1a2a1487e110823bd"
 }
