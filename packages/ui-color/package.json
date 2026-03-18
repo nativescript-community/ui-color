@@ -1,0 +1,47 @@
+{
+    "name": "@nativescript-community/ui-color",
+    "version": "1.1.23",
+    "description": "Simple color picker for Nativescript iOS/Android",
+    "main": "index",
+    "sideEffects": false,
+    "typings": "index.d.ts",
+    "scripts": {
+        "tsc": "cpy '**/*.d.ts' '../../packages/ui-color' --parents --cwd=../../src/ui-color && tsc  --build",
+        "build": "npm run tsc && npm run readme",
+        "build.watch": "npm run tsc -- -w",
+        "build.win": "npm run tsc-win",
+        "build.all": "npm run build",
+        "clean": "bin/rimraf ./*.d.ts ./*.js ./*.js.map ./*.tsbuildinfo ./*.mjs ./*.mjs.map ./angular ./svelte ./vue* ./react",
+        "readme": "readme generate -c ../../tools/readme/blueprint.json"
+    },
+    "nativescript": {
+        "platforms": {
+            "android": "5.0.0",
+            "ios": "5.0.0"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nativescript-community/ui-color"
+    },
+    "keywords": [
+        "nativescript",
+        "native",
+        "typescript",
+        "iOS",
+        "color",
+        "picker",
+        "vue"
+    ],
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Martin Guillon",
+            "email": "martin.guillon@akylas.fr",
+            "url": "https://github.com/farfromrefug"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/nativescript-community/ui-color/issues"
+    }
+}

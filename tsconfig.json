@@ -1,0 +1,15 @@
+{
+    "extends": "./tools/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@nativescript-community/ui-color": ["src/ui-color/index"],
+            "@nativescript-community/ui-color/*": ["src/ui-color/*"]
+        }
+    },
+    "references": [
+        {
+            //Need for IDE
+            "path": "./tsconfig.vue3.json"
+        }
+    ]
+}

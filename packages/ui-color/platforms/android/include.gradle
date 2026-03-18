@@ -1,0 +1,4 @@
+dependencies {
+    def colorPickerVersion = { -> project.hasProperty("colorPickerVersion") ? colorPickerVersion : "2.2.4" }
+    implementation "com.github.skydoves:colorpickerview:$colorPickerVersion"
+}
