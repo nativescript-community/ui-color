@@ -1,0 +1,9 @@
+{
+    "uses":[
+        "com.skydoves.colorpickerview.listeners:ColorListener",
+        "com.skydoves.colorpickerview:ActionMode",
+        "com.skydoves.colorpickerview:ColorPickerDialog",
+        "com.skydoves.colorpickerview:ColorPickerDialog.Builder",
+        "com.skydoves.colorpickerview:ColorPickerView"
+    ]
+}
