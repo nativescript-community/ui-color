@@ -41,6 +41,9 @@
             "url": "https://github.com/farfromrefug"
         }
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "bugs": {
         "url": "https://github.com/nativescript-community/ui-color/issues"
     },
