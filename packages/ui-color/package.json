@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/ui-color",
-    "version": "1.1.23",
+    "version": "1.0.0",
     "description": "Simple color picker for Nativescript iOS/Android",
     "main": "index",
     "sideEffects": false,
