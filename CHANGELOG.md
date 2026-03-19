@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/nativescript-community/ui-color/compare/v1.0.5...v1.0.6) (2026-03-19)
+
+### Bug Fixes
+
+* **android:** allow opening in all activities ([34b7617](https://github.com/nativescript-community/ui-color/commit/34b7617b65c42fd60a5fcb787ac0fc24828f4a8d))
+
 ## [1.0.5](https://github.com/nativescript-community/ui-color/compare/v1.0.4...v1.0.5) (2026-03-18)
 
 ### Bug Fixes
