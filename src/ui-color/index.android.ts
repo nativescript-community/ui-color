@@ -11,7 +11,7 @@ export async function pickColor(
     }: { alpha?: boolean; anchor?: View; title?: string; cancelText?: string; okText?: string; bottomSpace?: number }
 ) {
     return new Promise<Color>((resolve) => {
-        const activity = Application.android.startActivity;
+        const activity = Application.android.foregroundActivity;
 
         const builder = new com.skydoves.colorpickerview.ColorPickerDialog.Builder(activity)
             .setTitle(title)
